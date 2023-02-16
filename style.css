@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,700;1,400&family=Pacifico&display=swap');
+
+.nav-item .nav-link{
+    margin-right: 20px;
+}
+.carousel-item {
+	height: 92vh;
+	min-height: 300px;
+}
+.carousel-caption {
+	bottom: 200px;
+	z-index: 2;
+}
+.carousel-caption h2{
+    font-size: 60px;   
+    font-family: 'Libre Baskerville', serif;
+
+}
+.carousel-caption h5 {
+	font-size: 45px;
+    font-family: 'Pacifico', cursive;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-top: 25px;
+}
+.carousel-caption p {
+	width: 60%;
+	margin: auto;
+	font-size: 18px;
+	
+}
+.about .card-body i {
+	font-size: 50px;
+}
+#social i{
+    font-size: 70px;
+}
+#betta h2 {
+    font-family: 'Libre Baskerville', serif;
+}
+#learn h2 {
+    font-size: 40px;
+    font-family: 'Libre Baskerville', serif;
+}
+.download h2, #about h2 {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 30px;
+}
+.floating-whatsapp-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+}
+
+.whatsapp-link {
+display: block;
+width: 60px;
+height: 60px;
+line-height: 60px;
+text-align: center;
+border-radius: 50%;
+background-color: #25d366;
+color: #fff;
+font-size: 30px;
+transition: 0.3s;
+}
+
+.whatsapp-link:hover {
+background-color: #128c7e;
+color: #fff;
+text-decoration: none;
+}
+  
+/*----responsive----*/
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.carousel-caption {
+		bottom: 370px;
+	}
+	.carousel-caption p {
+		width: 100%;
+	}
+	.card {
+		margin-bottom: 30px;
+	}
+	.img-area img {
+		width: 100%;
+	}
+}
+@media only screen and (max-width) {
+    .navbar-nav{
+        text-align: center;
+    }
+    .carousel-caption{
+        bottom: 125px;
+    }
+    .carousel-caption h5 {
+		font-size: 17px;
+	}
+	.carousel-caption a {
+		padding: 10px 15px;
+		font-size: 15px;
+	}
+	.carousel-caption p {
+		width: 100%;
+		line-height: 1.6;
+		font-size: 12px;
+	}
+	.card {
+		margin-bottom: 30px;
+	}
+}
