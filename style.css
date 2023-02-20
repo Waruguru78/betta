@@ -5,8 +5,7 @@
 }
 .navbar-nav .nav-item:hover .nav-link {
 	color: rgb(54, 17, 223);
-	background-color: #131414;
-  }
+}
 .carousel-item {
 	height: 92vh;
 	min-height: 300px;
